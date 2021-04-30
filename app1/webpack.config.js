@@ -53,7 +53,7 @@ const config = {
     new ModuleFederationPlugin({
       name: 'application_master',
       remotes: {
-        application_b: 'application_b',
+        application_b: 'application_b@',
       },
       shared: ['react', 'react-dom', '@material-ui/core', '@material-ui/icons', 'react-router-dom'],
     }),
