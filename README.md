@@ -1,6 +1,10 @@
 # webpack-MF-with-React
 Webpack Module Federation with React
 
+Two apps
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/4532a9ab-c87d-4e54-83e9-622e5812a488/deploy-status)](https://knnect-mf-app1.netlify.app) (Primary)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/352595ec-577c-4020-8b7a-ab910f9011de/deploy-status)](https://knnect-mf-app2.netlify.app) (Secondary)
+
 Know issues
 
 - https://github.com/webpack/webpack-dev-server/issues/2692
