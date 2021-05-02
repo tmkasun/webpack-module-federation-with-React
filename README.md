@@ -10,6 +10,7 @@ Know issues
 - https://github.com/webpack/webpack-dev-server/issues/2692
   -  https://github.com/styled-components/styled-components/issues/3302
 - https://github.com/webpack/webpack/issues/11805#issuecomment-830211768
+- https://github.com/webpack/webpack/issues/13287
   
 # Guides
 
