@@ -44,7 +44,7 @@ export default function Routing() {
             </Route>
             <Route path="/mf">
               {/* <SayHelloFromB /> */}
-              <Suspense fallback="Loading . . . ">
+              <Suspense fallback="Loading from `https://knnect-mf-app2.netlify.app/` . . . ">
                 <App2Welcome title="Prop from master app" />
               </Suspense>
             </Route>
