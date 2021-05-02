@@ -13,7 +13,7 @@ export default function Routing() {
     <Base>
       <Switch>
         <Route exact path="/welcome">
-          <Welcome />
+          <Welcome title="Title prop in app2" />
         </Route>
         {/* If the current URL is /about, this route is rendered
             while the rest are ignored */}
@@ -30,7 +30,7 @@ export default function Routing() {
             the URL because all URLs begin with a /. So that's
             why we put this one last of all */}
         <Route exact path="/">
-          <Welcome />
+          <Welcome title="Title prop in app2" />
         </Route>
       </Switch>
     </Base>

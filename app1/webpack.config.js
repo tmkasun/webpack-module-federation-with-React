@@ -55,7 +55,7 @@ const config = {
       remotes: {
         application_b: 'application_b@',
       },
-      shared: ['react', 'react-dom', '@material-ui/core', '@material-ui/icons', 'react-router-dom'],
+      shared: { react: { eager: true }, 'react-dom': { eager: true } },
     }),
   ],
   // optimization: {

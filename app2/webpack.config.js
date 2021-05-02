@@ -57,7 +57,7 @@ const config = {
       exposes: {
         './SayHelloFromB': './source/Application/pages/WelcomeB.jsx',
       },
-      shared: ['react', 'react-dom', '@material-ui/core', '@material-ui/icons', 'react-router-dom'],
+      shared: { react: { eager: true }, 'react-dom': { eager: true } },
     }),
   ],
   // optimization: {

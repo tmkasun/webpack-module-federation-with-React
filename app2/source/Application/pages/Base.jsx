@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
@@ -132,7 +133,7 @@ export default function MiniDrawer(props) {
         })}
       >
         <Toolbar>
-          <IconButton
+          {/* <IconButton
             color="inherit"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
@@ -142,18 +143,18 @@ export default function MiniDrawer(props) {
             })}
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
           <Typography variant="h6" noWrap>
             React Micro Frontend Demo
             {' '}
             {'  '}
             <Typography variant="caption" noWrap>
-              Using Webpack Module Federation
+              Data table application
             </Typography>
           </Typography>
         </Toolbar>
       </AppBar>
-      <Drawer
+      {/* <Drawer
         variant="permanent"
         className={clsx(classes.drawer, {
           [classes.drawerOpen]: open,
@@ -196,7 +197,7 @@ export default function MiniDrawer(props) {
             </ListItem>
           </Link>
         </List>
-      </Drawer>
+      </Drawer> */}
       <div className={classes.root2}>
         <main className={classes.content}>
           <div className={classes.toolbar} />

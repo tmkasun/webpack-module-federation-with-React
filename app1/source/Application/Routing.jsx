@@ -45,7 +45,7 @@ export default function Routing() {
             <Route path="/mf">
               {/* <SayHelloFromB /> */}
               <Suspense fallback="Loading . . . ">
-                <App2Welcome />
+                <App2Welcome title="Prop from master app" />
               </Suspense>
             </Route>
             {/* If none of the previous routes render anything,
