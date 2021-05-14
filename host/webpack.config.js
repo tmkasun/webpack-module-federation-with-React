@@ -53,7 +53,7 @@ const config = {
     new ModuleFederationPlugin({
       name: 'application_master',
       remotes: {
-        application_b: 'application_b@http://localhost:8080/bRemoteEntry.js',
+        application_b: 'application_b@https://knnect-mf-app2.netlify.app/bRemoteEntry.js',
       },
       shared: { react: { eager: true }, 'react-dom': { eager: true } },
     }),
