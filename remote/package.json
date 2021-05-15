@@ -5,9 +5,10 @@
   "main": "source/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "npm --prefix .. run bootstrap",
     "clean": "rm -Rf public/*",
     "build:dev": "npm run clean && webpack --mode development",
-    "build:prod": "npm run clean && webpack --mode production",
+    "build:prod": "npm run bootstrap && npm run clean && webpack --mode production",
     "start": "webpack serve --hot --mode development"
   },
   "author": "tmkasun",
