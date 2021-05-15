@@ -25,7 +25,6 @@ import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary">
-      {'Copyright © '}
       <Link color="inherit" href="https://me.knnect.com/">
         Knnect
       </Link>
