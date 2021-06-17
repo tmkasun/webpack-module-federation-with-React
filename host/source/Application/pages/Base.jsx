@@ -211,6 +211,12 @@ export default function MiniDrawer(props) {
               <ListItemText primary="Sample Pricing" />
             </ListItem>
           </Link>
+          <Link underline="none" component={RouterLink} to="/error">
+            <ListItem button>
+              <ListItemIcon><AttachMoneyIcon /></ListItemIcon>
+              <ListItemText primary="Sentry testing" />
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
       <div className={classes.root2}>
