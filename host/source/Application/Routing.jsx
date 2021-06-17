@@ -14,6 +14,7 @@ import Base from './pages/Base';
 import Pricing from './pages/Pricing';
 import Signup from './pages/Signup';
 import theme from './theme/theme';
+import SentryError from './pages/SentryError';
 
 const App2Welcome = lazy(() => import('application_b/SayHelloFromB'));
 
