@@ -38,6 +38,9 @@ export default function Routing() {
             <Route path="/signup">
               <Signup />
             </Route>
+            <Route path="/error">
+              <SentryError />
+            </Route>
             <Route path="/federated-component">
               <Suspense fallback="Loading from `https://knnect-mf-app2.netlify.app/` . . . ">
                 <App2Welcome title="Prop from host app" />
