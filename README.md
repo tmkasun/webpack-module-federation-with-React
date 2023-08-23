@@ -1,5 +1,4 @@
-# webpack-MF-with-React
-Webpack Module Federation with React
+# Develop a React-based application using Microfrontend architecture.
 
 Two apps
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/4532a9ab-c87d-4e54-83e9-622e5812a488/deploy-status)](https://knnect-mf-app1.netlify.app) (Primary)
