@@ -11,7 +11,7 @@ This repository contains a demonstration application that showcases the implemen
 
 # Architecture Overview
 
-The demo application consists of a main application and a microfrontend module.
+The demo application consists of a host(main) application and a microfrontend module.
 
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/4532a9ab-c87d-4e54-83e9-622e5812a488/deploy-status)](https://knnect-mf-app1.netlify.app) (Primary)
   - The entry point of the application that integrates the microfrontends and manages their communication.
@@ -21,7 +21,7 @@ The demo application consists of a main application and a microfrontend module.
 # Usage of Webpack Module Federation
 Webpack Module Federation is utilized to enable the integration of microfrontends into the main application. It allows each microfrontend to expose selected components and consume components from other microfrontends, all while keeping their code and state separate.
 
-The `webpack.config.js` files in the main application and each microfrontend module contain the federation configuration, enabling seamless module sharing.
+The `webpack.config.js` files in the host application and each microfrontend module contain the federation configuration, enabling seamless module sharing.
 
 Know issues
 
