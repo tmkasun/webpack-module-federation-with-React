@@ -23,6 +23,22 @@ Webpack Module Federation is utilized to enable the integration of microfrontend
 
 The `webpack.config.js` files in the host application and each microfrontend module contain the federation configuration, enabling seamless module sharing.
 
+# Folder Structure
+
+```
+microfrontend-demo/
+│
+├── host/
+│   ├── src/
+│   └── webpack.config.js
+│
+├── remote/
+│   ├── src/
+│   └── webpack.config.js
+│
+└── README.md
+
+```
 Know issues
 
 - https://github.com/webpack/webpack-dev-server/issues/2692
